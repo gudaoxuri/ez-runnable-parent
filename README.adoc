@@ -1,0 +1,22 @@
+= EZ Runable Parent
+
+=== EZ 可运行组件构建框架。
+
+== 使用
+
+[source]
+----
+<parent>
+    <groupId>com.ecfront</groupId>
+    <artifactId>ez-runnable-parent</artifactId>
+    <version>1.0</version>
+</parent>
+----
+
+=== Check out sources
+
+`git clone https://github.com/gudaoxuri/ez-runnable-parent.git`
+
+=== License
+
+Under version 2.0 of the http://www.apache.org/licenses/LICENSE-2.0[Apache License].
