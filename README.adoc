@@ -4,7 +4,7 @@
 
 == 使用
 
-[source]
+[source,xml]
 ----
 <parent>
     <groupId>com.ecfront</groupId>
@@ -12,6 +12,12 @@
     <version>1.1</version>
 </parent>
 ----
+
+打包输入目录：./target/deploy/
+
+. 打成带lib目录的包：package
+. 只打项目包（不包含依赖）：jar:jar
+. 打成fat包：assembly:assembly
 
 === Check out sources
 
