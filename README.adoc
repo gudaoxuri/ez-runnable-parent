@@ -9,15 +9,21 @@
 <parent>
     <groupId>com.ecfront</groupId>
     <artifactId>ez-runnable-parent</artifactId>
-    <version>1.1</version>
+    <version>1.2.0</version>
 </parent>
 ----
 
-打包输入目录：./target/deploy/
+IMPORTANT: 子项目需要重写`<mainClass></mainClass>`，使用自己的main class
 
-. 打成带lib目录的包：package
-. 只打项目包（不包含依赖）：jar:jar
-. 打成fat包：assembly:assembly
+NOTE: 打包输入目录：./target/deploy/
+
+[TIP]
+.打包方式
+----
+. 打成带lib目录的包：`package`
+. 只打项目包（不包含依赖）：`jar:jar`
+. 打成fat包：`assembly:assembly`
+----
 
 === Check out sources
 
