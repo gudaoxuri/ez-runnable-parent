@@ -15,7 +15,7 @@
     <description>EZ 可运行组件构建框架</description>
     <url>https://github.com/gudaoxuri/ez-runnable-parent</url>
     <packaging>pom</packaging>
-    <version>1.2.2</version>
+    <version>1.2.3</version>
 
     <scm>
         <connection>scm:git:git@github.com:gudaoxuri/ez-runnable-parent.git</connection>
@@ -88,6 +88,7 @@
                             <goal>copy-dependencies</goal>
                         </goals>
                         <configuration>
+                            <includeScope>compile</includeScope>
                             <outputDirectory>
                                 ${project.build.directory}/deploy/lib
                             </outputDirectory>
